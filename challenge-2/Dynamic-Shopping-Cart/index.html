@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link  rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="main-card-box">
+           
+            <div class="preview-box">
+                    <div class="box1"><img id="prev-1" src="images/image-1.png" alt="" onclick="changeImagePrev(1)"></div>
+                    <div class="box2"><img id="prev-2" src="images/image-2.png" alt="" onclick="changeImagePrev(2)"></div>
+                    <div class="box3"><img id="prev-3" src="images/image-3.png" alt="" onclick="changeImagePrev(3)"></div>
+            </div>
+
+            <div class="shirt-box">
+                <img id="display-shirt" src="images/image-1.png" alt="">
+            </div>
+            
+            <div class="content-box">
+
+                <div class="text-box">
+
+                    <p>Urban Boutique</p>
+                    <h1>Urban Edge Men's Shirt -DK- Green</h1>
+                    <p>Urban edge classic shirt. Made of smooth and soft cotton</p>
+
+                </div>
+
+
+                <div class="price-box">
+                    <div class="price"><h1>$99.00</h1><p>-25%</p></div>
+                    <p>$132.00</p>
+                </div>
+
+
+                    <div class="size-box">
+                            <h5>CHOOSE SIZE</h5>
+                            <div class="sizes">
+                              <li id="size-1" onclick="selectSizes(1)">S</li>
+                              <li id="size-2" onclick="selectSizes(2)">M</li>
+                              <li id="size-3" onclick="selectSizes(3)">L</li>
+                            <li id="size-4" onclick="selectSizes(4)">XL</li>
+                              <li id="size-5" onclick="selectSizes(5)">XXl</li>
+                            </div>
+                    </div>
+
+
+                    <div class="card-btn">
+                        <button>Add to Bag</button>
+                    </div>
+
+            </div>
+
+
+
+        </div>        
+    </div>
+    <script src="script.js"  defer></script> 
+
+</body>
+</html>
